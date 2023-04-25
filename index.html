@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>f2-contenst2</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="big-container">
+        <div class="heading">
+            <h3>Filter ui cards via their profession.</h3>
+            <select name="" id="professionInp">
+                <option value="">Profession</option>
+                <option value="developer">Developer</option>
+                <option value="admin">Admin</option>
+
+            </select>
+        </div>
+
+        <div class="data-container">
+            <!-- <div class="data" id="">
+                <div>id: <span>1</span></div>
+                <div>Name: <span>sajid</span></div>
+                <div>Profession: <span>developer</span></div>
+                <div>Age: <span>18</span></div>
+            </div>
+
+          
+
+            <div class="data">
+                <div>id: <span>1</span></div>
+                <div>Name: <span>sajid</span></div>
+                <div>Profession: <span>developer</span></div>
+                <div>Age: <span>18</span></div>
+            </div> -->
+        </div>
+        <button type="button" id="fliter-btn">Filter</button>
+
+        <p style="margin-bottom:20px">add new user</p>
+
+        <form action="" class="form-cl">
+            <div class="input-three">
+                <div class="input_">
+                    <label for="name">Enter Name:</label>
+                    <input type="text" id="name">
+
+                </div>
+                <div class="input_">
+                    <label for="Profession">Enter Profession:</label>
+                    <!-- <input type="text" id="Profession"> -->
+
+                    <select id="Profession">
+                        <option value="admin">Admin</option>
+                        <option value="developer">Developer</option>
+                    </select>
+                </div>
+                <div class="input_">
+                    <label for="age">Enter Age:</label>
+                    <input type="text" id="age">
+
+                </div>
+            </div>
+
+            <button type="submit" id="add-user-btn">add user</button>
+        </form>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
